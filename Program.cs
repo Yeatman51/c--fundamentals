@@ -6,8 +6,12 @@ namespace fundamentals
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!!~!!");
-            Console.WriteLine("this is C#");
+            string fname,lname;
+            Console.Write("Please enter your first name : ");
+            fname = Console.ReadLine();
+            Console.Write("Please enter your last name : ");
+            lname = Console.ReadLine();
+            Console.Write($"Your full name is {fname} {lname}");
         }
     }
 }
